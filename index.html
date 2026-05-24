@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Руля — подсказки ставок</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>🎰 Руля</h1>
+      <p class="subtitle">Автопилот следит за рулеткой и подсказывает ставки</p>
+      <div class="stats-bar" id="statsBar">
+        <span id="rulesStatus" class="stats-text">Загрузка правил…</span>
+        <span id="autopilotStatus" class="stats-text ok">🟢 Автопилот</span>
+        <button type="button" id="btnToggleAutopilot" class="btn btn-ghost">Пауза</button>
+        <button type="button" id="btnRefreshRules" class="btn btn-secondary">↻ Обновить статистику</button>
+        <button type="button" id="btnReset" class="btn btn-ghost">Сбросить сессию</button>
+        <label class="btn btn-ghost import-label">
+          ⬆ JSON
+          <input type="file" id="importRulesFile" accept=".json,application/json" hidden>
+        </label>
+      </div>
+    </header>
+
+    <section class="card bankroll-section">
+      <label for="balanceInput">Текущий баланс (золото)</label>
+      <div class="input-row">
+        <input type="number" id="balanceInput" placeholder="Например, 50000" min="0" step="1" autocomplete="off">
+        <button type="button" id="btnSetBalance" class="btn btn-primary">Установить/Обновить</button>
+      </div>
+      <p class="hint bankroll-hint">При live-поллинге: победа +ставка×35, промах −ставка</p>
+      <button type="button" id="btnHardReset" class="btn btn-danger btn-hard-reset">Hard Reset (полный сброс)</button>
+    </section>
+
+    <section class="card ai-analytics-section">
+      <h2>🧠 AI Аналитика <span class="hint-inline" id="aiSampleSize">(база: 0 спинов)</span></h2>
+      <div class="ai-metrics">
+        <div class="ai-metric">
+          <span class="ai-metric-label">Win Rate</span>
+          <span class="ai-metric-value" id="aiWinRate">—</span>
+        </div>
+        <div class="ai-metric">
+          <span class="ai-metric-label">Max Miss Streak</span>
+          <span class="ai-metric-value" id="aiMaxMiss">—</span>
+        </div>
+        <div class="ai-metric">
+          <span class="ai-metric-label">Баланс</span>
+          <span class="ai-metric-value" id="aiBalance">—</span>
+        </div>
+        <div class="ai-metric ai-metric-wide">
+          <span class="ai-metric-label">Статус алгоритма</span>
+          <span class="ai-status" id="aiStatus">Ожидание</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="card suggestion-section" id="suggestionSection" hidden>
+      <div class="suggestion-header">
+        <h2>После <span id="afterNumber" class="highlight">—</span></h2>
+        <span id="signalBadge" class="badge"></span>
+      </div>
+
+      <div id="skipWarning" class="warning" hidden>
+        ⚠️ Слабый сигнал — лучше пропустить раунд
+      </div>
+
+      <div class="bets-grid" id="betsGrid"></div>
+
+      <div class="bet-summary">
+        <div class="stat">
+          <span class="stat-label">Ставка на число</span>
+          <span class="stat-value" id="betPerNumber">375</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Всего ставка</span>
+          <span class="stat-value" id="totalBet">375</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Промахов подряд</span>
+          <span class="stat-value miss" id="missCount">0</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Множитель</span>
+          <span class="stat-value" id="multiplier">×1</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="card input-section">
+      <label for="lastNumber">Ручной ввод <span class="hint-inline">(опционально)</span></label>
+      <div class="input-row">
+        <input type="text" id="lastNumber" placeholder="0–36 или 00" autocomplete="off" maxlength="2">
+        <button type="button" id="btnSuggest" class="btn btn-primary">Применить</button>
+      </div>
+      <div class="quick-numbers" id="quickNumbers"></div>
+    </section>
+
+    <section class="card spin-history-section">
+      <div class="history-header">
+        <h2>🎲 История (последние 100 спинов)</h2>
+        <div class="history-actions">
+          <span id="lastSpinTime" class="hint"></span>
+          <button type="button" id="btnReplaySpins" class="btn btn-ghost">↻ Обновить</button>
+          <button type="button" id="btnHardResetHistory" class="btn btn-danger">Hard Reset</button>
+        </div>
+      </div>
+      <div id="spinHistoryList" class="spin-history-list">
+        <p class="empty-history">Ожидание спинов…</p>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
