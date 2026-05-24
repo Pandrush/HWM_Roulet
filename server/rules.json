@@ -1,0 +1,685 @@
+{
+  "updatedAt": "2026-05-24T20:12:25.010Z",
+  "periodDays": 31,
+  "source": "https://daily.heroeswm.ru/roulette/spin-repeat.php",
+  "rules": {
+    "0": {
+      "bets": [
+        "34"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "34",
+          "count31": 11,
+          "countAll": 562
+        }
+      ]
+    },
+    "1": {
+      "bets": [
+        "29"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "29",
+          "count31": 15,
+          "countAll": 595
+        }
+      ]
+    },
+    "2": {
+      "bets": [
+        "29",
+        "4"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "29",
+          "count31": 12,
+          "countAll": 567
+        },
+        {
+          "next": "4",
+          "count31": 11,
+          "countAll": 605
+        }
+      ]
+    },
+    "3": {
+      "bets": [
+        "18",
+        "32"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "18",
+          "count31": 13,
+          "countAll": 573
+        },
+        {
+          "next": "32",
+          "count31": 12,
+          "countAll": 598
+        }
+      ]
+    },
+    "4": {
+      "bets": [
+        "21",
+        "10"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "21",
+          "count31": 13,
+          "countAll": 628
+        },
+        {
+          "next": "10",
+          "count31": 12,
+          "countAll": 530
+        }
+      ]
+    },
+    "5": {
+      "bets": [
+        "35"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "35",
+          "count31": 13,
+          "countAll": 618
+        }
+      ]
+    },
+    "6": {
+      "bets": [
+        "15",
+        "10"
+      ],
+      "type": "hit",
+      "topStats": [
+        {
+          "next": "15",
+          "count31": 12,
+          "countAll": 572
+        },
+        {
+          "next": "10",
+          "count31": 12,
+          "countAll": 552
+        }
+      ]
+    },
+    "7": {
+      "bets": [
+        "21",
+        "26"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "21",
+          "count31": 11,
+          "countAll": 536
+        },
+        {
+          "next": "26",
+          "count31": 10,
+          "countAll": 617
+        }
+      ]
+    },
+    "8": {
+      "bets": [
+        "14"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "14",
+          "count31": 11,
+          "countAll": 547
+        }
+      ]
+    },
+    "9": {
+      "bets": [
+        "3"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "3",
+          "count31": 13,
+          "countAll": 565
+        }
+      ]
+    },
+    "10": {
+      "bets": [
+        "4"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "4",
+          "count31": 13,
+          "countAll": 565
+        }
+      ]
+    },
+    "11": {
+      "bets": [
+        "17",
+        "28"
+      ],
+      "type": "hit",
+      "topStats": [
+        {
+          "next": "17",
+          "count31": 10,
+          "countAll": 611
+        },
+        {
+          "next": "28",
+          "count31": 10,
+          "countAll": 589
+        }
+      ]
+    },
+    "12": {
+      "bets": [
+        "16",
+        "26"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "16",
+          "count31": 11,
+          "countAll": 585
+        },
+        {
+          "next": "26",
+          "count31": 10,
+          "countAll": 588
+        }
+      ]
+    },
+    "13": {
+      "bets": [
+        "30"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "30",
+          "count31": 13,
+          "countAll": 600
+        }
+      ]
+    },
+    "14": {
+      "bets": [
+        "3"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "3",
+          "count31": 12,
+          "countAll": 551
+        }
+      ]
+    },
+    "15": {
+      "bets": [
+        "20",
+        "24"
+      ],
+      "type": "hit",
+      "topStats": [
+        {
+          "next": "20",
+          "count31": 10,
+          "countAll": 606
+        },
+        {
+          "next": "24",
+          "count31": 10,
+          "countAll": 556
+        }
+      ]
+    },
+    "16": {
+      "bets": [
+        "14",
+        "21"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "14",
+          "count31": 14,
+          "countAll": 606
+        },
+        {
+          "next": "21",
+          "count31": 13,
+          "countAll": 570
+        }
+      ]
+    },
+    "17": {
+      "bets": [
+        "3",
+        "7"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "3",
+          "count31": 11,
+          "countAll": 605
+        },
+        {
+          "next": "7",
+          "count31": 10,
+          "countAll": 589
+        }
+      ]
+    },
+    "18": {
+      "bets": [
+        "18",
+        "9"
+      ],
+      "type": "hit",
+      "topStats": [
+        {
+          "next": "18",
+          "count31": 11,
+          "countAll": 584
+        },
+        {
+          "next": "9",
+          "count31": 11,
+          "countAll": 567
+        }
+      ]
+    },
+    "19": {
+      "bets": [
+        "34"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "34",
+          "count31": 14,
+          "countAll": 572
+        }
+      ]
+    },
+    "20": {
+      "bets": [
+        "19"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "19",
+          "count31": 13,
+          "countAll": 628
+        }
+      ]
+    },
+    "21": {
+      "bets": [
+        "15",
+        "30"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "15",
+          "count31": 11,
+          "countAll": 584
+        },
+        {
+          "next": "30",
+          "count31": 10,
+          "countAll": 579
+        }
+      ]
+    },
+    "22": {
+      "bets": [
+        "23",
+        "30"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "23",
+          "count31": 11,
+          "countAll": 595
+        },
+        {
+          "next": "30",
+          "count31": 10,
+          "countAll": 512
+        }
+      ]
+    },
+    "23": {
+      "bets": [
+        "8",
+        "34",
+        "2",
+        "11",
+        "32",
+        "16"
+      ],
+      "type": "skip",
+      "note": "много равных исходов — лучше пропустить",
+      "topStats": [
+        {
+          "next": "8",
+          "count31": 10,
+          "countAll": 615
+        },
+        {
+          "next": "34",
+          "count31": 10,
+          "countAll": 601
+        },
+        {
+          "next": "2",
+          "count31": 10,
+          "countAll": 596
+        },
+        {
+          "next": "11",
+          "count31": 10,
+          "countAll": 593
+        },
+        {
+          "next": "32",
+          "count31": 10,
+          "countAll": 589
+        },
+        {
+          "next": "16",
+          "count31": 10,
+          "countAll": 566
+        }
+      ]
+    },
+    "24": {
+      "bets": [
+        "5",
+        "00"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "5",
+          "count31": 13,
+          "countAll": 567
+        },
+        {
+          "next": "00",
+          "count31": 12,
+          "countAll": 562
+        }
+      ]
+    },
+    "25": {
+      "bets": [
+        "4"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "4",
+          "count31": 12,
+          "countAll": 582
+        }
+      ]
+    },
+    "26": {
+      "bets": [
+        "22"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "22",
+          "count31": 15,
+          "countAll": 579
+        }
+      ]
+    },
+    "27": {
+      "bets": [
+        "29"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "29",
+          "count31": 13,
+          "countAll": 590
+        }
+      ]
+    },
+    "28": {
+      "bets": [
+        "18"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "18",
+          "count31": 13,
+          "countAll": 568
+        }
+      ]
+    },
+    "29": {
+      "bets": [
+        "29",
+        "24"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "29",
+          "count31": 13,
+          "countAll": 589
+        },
+        {
+          "next": "24",
+          "count31": 12,
+          "countAll": 562
+        }
+      ]
+    },
+    "30": {
+      "bets": [
+        "27",
+        "8"
+      ],
+      "type": "hit",
+      "topStats": [
+        {
+          "next": "27",
+          "count31": 11,
+          "countAll": 585
+        },
+        {
+          "next": "8",
+          "count31": 11,
+          "countAll": 559
+        }
+      ]
+    },
+    "31": {
+      "bets": [
+        "11",
+        "32",
+        "18"
+      ],
+      "type": "weak",
+      "note": "слабый сигнал",
+      "topStats": [
+        {
+          "next": "11",
+          "count31": 10,
+          "countAll": 593
+        },
+        {
+          "next": "32",
+          "count31": 10,
+          "countAll": 574
+        },
+        {
+          "next": "18",
+          "count31": 10,
+          "countAll": 562
+        }
+      ]
+    },
+    "32": {
+      "bets": [
+        "33"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "33",
+          "count31": 16,
+          "countAll": 555
+        }
+      ]
+    },
+    "33": {
+      "bets": [
+        "3",
+        "24",
+        "6",
+        "11"
+      ],
+      "type": "weak",
+      "note": "слабый сигнал",
+      "topStats": [
+        {
+          "next": "3",
+          "count31": 10,
+          "countAll": 624
+        },
+        {
+          "next": "24",
+          "count31": 10,
+          "countAll": 567
+        },
+        {
+          "next": "6",
+          "count31": 10,
+          "countAll": 549
+        },
+        {
+          "next": "11",
+          "count31": 10,
+          "countAll": 526
+        }
+      ]
+    },
+    "34": {
+      "bets": [
+        "11",
+        "14"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "11",
+          "count31": 14,
+          "countAll": 553
+        },
+        {
+          "next": "14",
+          "count31": 13,
+          "countAll": 599
+        }
+      ]
+    },
+    "35": {
+      "bets": [
+        "1",
+        "27"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "1",
+          "count31": 11,
+          "countAll": 557
+        },
+        {
+          "next": "27",
+          "count31": 10,
+          "countAll": 571
+        }
+      ]
+    },
+    "36": {
+      "bets": [
+        "9",
+        "28"
+      ],
+      "type": "normal",
+      "topStats": [
+        {
+          "next": "9",
+          "count31": 11,
+          "countAll": 549
+        },
+        {
+          "next": "28",
+          "count31": 10,
+          "countAll": 586
+        }
+      ]
+    },
+    "00": {
+      "bets": [
+        "23",
+        "7"
+      ],
+      "type": "hit",
+      "topStats": [
+        {
+          "next": "23",
+          "count31": 11,
+          "countAll": 590
+        },
+        {
+          "next": "7",
+          "count31": 11,
+          "countAll": 544
+        }
+      ]
+    }
+  },
+  "errors": []
+}
